@@ -176,7 +176,7 @@ clickHandler = () => {
         
           nextPalindromeDateFormat = nextPalindrome[2];
 
-        outputDiv.innerHTML= "<p>Your birthdate is not palindrome. <br> Next palindrome date is <b>"+ `${nextPalindromeDate}`+"</b> after <b>"+ `${noOfDays}`+ "</b> days <br></p>" + `<b class="palindrome"><div class="format">${nextPalindromeDateFormat}<div><b>`
+        outputDiv.innerHTML= "<p>Your birthdate is not palindrome. <br> Next palindrome date is <b>"+ `${nextPalindromeDate}`+"</b> after <b>"+ `${noOfDays}`+ "</b> days. <br></p>" + `<b class="palindrome"><div class="format">${nextPalindromeDateFormat}<div><b>`
     }
     else{
       outputDiv.innerHTML="<p>Yay! Your birhtdate is a Palindrome.<br></p>" + `<b class="palindrome"><div class="format">${checkAll[1]}</div><b>`
