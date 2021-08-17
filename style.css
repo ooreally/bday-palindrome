@@ -1,0 +1,84 @@
+:root{
+    --primary-color:rgba(22, 51, 37, 0.972);
+    --button-color: rgba(82, 170, 127, 0.972);
+    --border-col: rgb(238, 148, 148);
+    --font-col:rgb(246, 230, 230)
+}
+
+body{
+    padding:3rem;
+    text-align:center;
+    /* font-size:1rem; */
+    background: var(--primary-color);
+    color: var(--font-col);
+}
+section{
+    font-size: 1.5rem;
+}
+.input_area{
+    text-align: center;
+    /* align-items: center; */
+    padding: 2rem;
+    border-radius: 0.7rem;
+    outline: none;
+}
+h1{
+    font-size: 3rem;
+    color: var(--border-col);
+}
+.btn{
+    /* align-items: center; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+button{
+    margin:1rem;
+    font-size: 1.5rem;
+    background-color: var(--button-color);
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
+label {
+    
+    font-size: 1.8rem;
+}
+
+input{
+    
+    font-size: 1.8rem;
+    background-color: var(--button-color);
+
+}
+
+p{
+    font-size: 2rem;
+}
+
+.palindrome{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.format{
+    padding: 1rem;
+    border: 2px solid var(--border-col);
+    font-size: 5rem;
+    color:var(--border-col);
+    width:fit-content;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        text-align: left;
+        padding: 1rem 1rem;
+    }
+    .input_area{
+        text-align: left;
+        padding: 1rem 0rem;
+    }
+}
